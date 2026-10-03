@@ -11,6 +11,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator c = new Calculator();
+        System.out.println("Changes 1");
         System.out.println("Addition = " + c.add(10,5));
         System.out.println("Subtraction = " + c.sub(10,5));
     }
